@@ -1,0 +1,14 @@
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\bin\Debug\netstandard2.0\CollectionView.deps.json
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\bin\Debug\netstandard2.0\CollectionView.dll
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\bin\Debug\netstandard2.0\ref\CollectionView.dll
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\bin\Debug\netstandard2.0\CollectionView.pdb
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.csprojAssemblyReference.cache
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.AssemblyInfoInputs.cache
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.AssemblyInfo.cs
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.csproj.CoreCompileInputs.cache
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\XamlC.stamp
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.dll
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\ref\CollectionView.dll
+D:\CollectionViewGlitching\CollectionView\CollectionView\CollectionView\obj\Debug\netstandard2.0\CollectionView.pdb

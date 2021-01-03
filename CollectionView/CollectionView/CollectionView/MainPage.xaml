@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionView.MainPage"
+             xmlns:root="clr-namespace:CollectionView"
+             >
+
+    <ContentPage.BindingContext>
+        <root:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
+                <CollectionView ItemsSource="{Binding Cards}"
+                                SelectionMode="None"
+                                >
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="5">
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding FlipCard}"/>
+                                </Grid.GestureRecognizers>
+                                <root:CustomStackLayout HeightRequest="180" BackgroundColor="Red"
+                                                         StackVariable="{Binding FrontStack, Mode=OneWayToSource}">
+                                    <Label Text="Text" TextColor="White" FontAttributes="Bold"
+                                           VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                                           FontSize="22"
+                                           />
+                                </root:CustomStackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

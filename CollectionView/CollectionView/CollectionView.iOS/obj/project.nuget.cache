@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RusTKa40GhRu4XvnrkrgTehdMj7xky/bc7bEqg9RU3EY2OjBITgRpbjnJa1IRyKkk9mCQo6HB+UnSsV1ZKUF+A==",
+  "success": true,
+  "projectFilePath": "D:\\CollectionViewGlitching\\CollectionView\\CollectionView\\CollectionView.iOS\\CollectionView.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wn00151959\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\wn00151959\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
